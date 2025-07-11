@@ -374,6 +374,14 @@
 		{
 			dependencies: ["7441F4705C5B63CB"]
 			id: "71D2C88B03ACD57E"
+			rewards: [{
+				id: "6A0C090B04A30F58"
+				item: {
+					count: 1
+					id: "mekanism:configurator"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "53211D28FC8ABD50"
 				type: "checkmark"
