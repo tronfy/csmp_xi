@@ -1,0 +1,504 @@
+{
+	autofocus_id: "55BC6ABBB9B9657E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "752D711293289634"
+	icon: {
+		id: "oritech:super_ai_chip"
+	}
+	id: "16EB24E17E3917F6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E67CD789F37878A"]
+			icon: {
+				id: "oritech:laser_arm_block"
+			}
+			id: "5B7FC7E6FD4C74B2"
+			tasks: [
+				{
+					id: "15043E6016B70D29"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "66B91CC8AF0B900F"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55BC6ABBB9B9657E"]
+			id: "49A9C42C225BFCC1"
+			tasks: [{
+				id: "74E87745468BDDAC"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55BC6ABBB9B9657E"]
+			id: "3B1E08C408C042FC"
+			tasks: [{
+				id: "14F2E11DEFC8DB47"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55BC6ABBB9B9657E"]
+			id: "7F82F3BAAB206691"
+			tasks: [{
+				id: "0DF8C1F8CC96BDB3"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "55BC6ABBB9B9657E"
+			shape: "octagon"
+			tasks: [{
+				id: "3CC2517F01B42225"
+				item: { components: { "ftbfiltersystem:filter": "or(item(oritech:machine_core_1)item(oritech:machine_core_2)item(oritech:machine_core_3)item(oritech:machine_core_4)item(oritech:machine_core_5)item(oritech:machine_core_6)item(oritech:machine_core_7))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F82F3BAAB206691"]
+			hide_dependent_lines: true
+			id: "0005BA8BF9DBC674"
+			tasks: [{
+				id: "3CF54040AE305014"
+				item: { count: 1, id: "oritech:machine_fluid_addon" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51149A36839CD7CD"]
+			id: "5E67CD789F37878A"
+			tasks: [{
+				id: "43CEA2A715D5EBC9"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0005BA8BF9DBC674"
+				"7F82F3BAAB206691"
+			]
+			id: "51149A36839CD7CD"
+			tasks: [{
+				id: "3CC2591D68B2D3A7"
+				item: { count: 1, id: "oritech:raw_biopolymer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B7FC7E6FD4C74B2"]
+			id: "733C3B4416F8221A"
+			tasks: [{
+				id: "57549D9E4EDE092F"
+				item: { count: 1, id: "oritech:fluxite" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55BC6ABBB9B9657E"]
+			id: "31C9372BF441740E"
+			rewards: [{
+				id: "7A877447E965140D"
+				item: {
+					count: 1
+					id: "oritech:machine_extender"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D13666CB902020A"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "4927940B04688488"
+			shape: "rsquare"
+			tasks: [{
+				id: "765834782B722A6B"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "5C028F252F069B5A"
+			shape: "rsquare"
+			tasks: [{
+				id: "238D408C454E1F6A"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "2490600767DE5FDF"
+			shape: "rsquare"
+			tasks: [{
+				id: "702CB7B6EC513CC6"
+				item: { count: 1, id: "oritech:machine_capacitor_addon" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "6D46AA4B4F960CF1"
+			shape: "rsquare"
+			tasks: [{
+				id: "6DDC3B04DACEBC98"
+				item: { count: 1, id: "oritech:machine_acceptor_addon" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "215CDD10E16075B4"
+			shape: "rsquare"
+			tasks: [{
+				id: "478AA785A1FD8053"
+				item: { count: 1, id: "oritech:machine_ultimate_addon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31C9372BF441740E"]
+			id: "003206E0BB934750"
+			shape: "rsquare"
+			tasks: [{
+				id: "112422895F9E90F9"
+				item: { count: 1, id: "oritech:machine_processing_addon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["733C3B4416F8221A"]
+			id: "474C7FE7CB160818"
+			tasks: [{
+				id: "2110B105436304F2"
+				item: { count: 1, id: "oritech:energite_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B7FC7E6FD4C74B2"]
+			icon: {
+				id: "oritech:destroyer_block"
+			}
+			id: "0C5DF3C490A5EFCA"
+			shape: "octagon"
+			size: 1.15d
+			tasks: [
+				{
+					id: "79886FA4C70D4A2B"
+					item: { count: 1, id: "oritech:destroyer_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0218E5881974E269"
+					item: { count: 3, id: "oritech:quarry_addon" }
+					type: "item"
+				}
+				{
+					id: "5E394C9E4DD2A301"
+					item: { count: 1, id: "oritech:machine_yield_addon" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65D602A32A0FCD03"
+					item: { count: 1, id: "oritech:machine_silk_touch_addon" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "75F7B89BFF7B1A73"
+					item: { count: 16, id: "oritech:machine_frame_block" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26B5828743F21A1E"]
+			icon: {
+				id: "oritech:deep_drill_block"
+			}
+			id: "1CF35E6B3A82A3D0"
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4992F1278B0DB141"
+					item: { count: 1, id: "oritech:deep_drill_block" }
+					type: "item"
+				}
+				{
+					id: "43D25604B9322BE8"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["474C7FE7CB160818"]
+			id: "10843178968F6687"
+			tasks: [{
+				id: "43F7E84656531452"
+				item: { count: 1, id: "oritech:superconductor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10843178968F6687"]
+			id: "26B5828743F21A1E"
+			tasks: [{
+				id: "58C0F11A036D0650"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"26B5828743F21A1E"
+				"4B292D92BB073AA2"
+			]
+			id: "0C0B3372CC0AA373"
+			tasks: [{
+				id: "7A158DFDC66699E0"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C0B3372CC0AA373"]
+			id: "06DD799AFFF47046"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F6DC7F833BE9A86"
+				item: { count: 1, id: "oritech:promethium_pickaxe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C0B3372CC0AA373"]
+			id: "7DD1B85B76AFF337"
+			shape: "rsquare"
+			tasks: [{
+				id: "2C4EF91B0E3D124B"
+				item: { count: 1, id: "oritech:promethium_axe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14DE3FFDF7038A2F"]
+			id: "4B292D92BB073AA2"
+			tasks: [{
+				id: "5C036E05F0C1AADA"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["473828A2C2E3DF1E"]
+			id: "14DE3FFDF7038A2F"
+			tasks: [{
+				id: "0436DFF3DF721A85"
+				item: { count: 1, id: "oritech:super_ai_chip" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0017E5CD88317C89"
+				"369E528012AD11E1"
+			]
+			id: "473828A2C2E3DF1E"
+			tasks: [{
+				id: "041E405F59A26015"
+				item: { count: 1, id: "oritech:advanced_computing_engine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49A9C42C225BFCC1"]
+			id: "0017E5CD88317C89"
+			tasks: [{
+				id: "7608E0A1FCDEB352"
+				item: { count: 1, id: "oritech:processing_unit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65075211B3C9E287"]
+			id: "369E528012AD11E1"
+			tasks: [{
+				id: "4D765B8F4640DABB"
+				item: { count: 1, id: "oritech:silicon_wafer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14B884616DA5EDA0"]
+			id: "65075211B3C9E287"
+			shape: "octagon"
+			size: 1.15d
+			tasks: [{
+				id: "3B187BA5097896D7"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["733C3B4416F8221A"]
+			id: "14B884616DA5EDA0"
+			tasks: [{
+				id: "3617AC8A826D4D2B"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14DE3FFDF7038A2F"]
+			id: "1CC2FD428AAB1E47"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "21BBFD221E8FC056"
+				item: { count: 1, id: "oritech:unstable_container" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "5A70B4EEC0BC31A4"
+			tasks: [{
+				id: "67844B3371B933D8"
+				item: { count: 1, id: "oritech:jetpack" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"49A9C42C225BFCC1"
+				"474C7FE7CB160818"
+			]
+			hide_dependency_lines: true
+			id: "22596B2C4D8A0414"
+			shape: "octagon"
+			size: 1.15d
+			tasks: [
+				{
+					id: "1BD9C6AA1479D751"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "2AA114738A3372CF"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "277314B88177064C"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "0953FAF34B6AF085"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A70B4EEC0BC31A4"]
+			id: "572D37A7FC42C8D5"
+			tasks: [{
+				id: "28D4939D5F816A4F"
+				item: { count: 1, id: "oritech:exo_jetpack" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+	]
+}
