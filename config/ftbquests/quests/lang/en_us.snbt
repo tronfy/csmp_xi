@@ -4,6 +4,7 @@
 	chapter.0E965396577804A6.title: "Sophisticated Storage"
 	chapter.0EF3DCE2B421954B.title: "&6Create"
 	chapter.128A606323F55E81.title: "&cNether"
+	chapter.16EB24E17E3917F6.title: "&dOritech"
 	chapter.207FEE2E99C3A8C4.title: "&3Artifacts"
 	chapter.243AAB7BD79629F1.title: "&dAdvanced AE"
 	chapter.258538EB1CE1ADC7.title: "&d&l Criativo"
@@ -15,6 +16,7 @@
 	chapter.525546D76EE2F3AA.title: "&dThe End"
 	chapter.52A9007C0EB92590.title: "&6Extended AE"
 	chapter.582F3AD1A81555C5.title: "&bApplied Energistics (AE)"
+	chapter.5970248A932D48B0.title: "&bJust Dire Things"
 	chapter.5D06CF0A0904FE0A.title: "&l&6 Capivara Pass"
 	chapter.604293FC096B218F.title: "&a Itens Úteis"
 	chapter.7335FE5BAE40582B.title: "Overworld"
@@ -79,6 +81,8 @@
 	quest.08C35E4EBE49520B.title: "Creator (Music Box)"
 	quest.097CEF7F454CE160.title: "Heavy Water"
 	quest.0B2DEDC3636D24E3.title: "&32x Ore Processing"
+	quest.0C5DF3C490A5EFCA.quest_subtitle: "R.I.P buildcraft"
+	quest.0C5DF3C490A5EFCA.title: "&bQuarry"
 	quest.0D0AD9E3599C4617.title: "Iron Backpack"
 	quest.0D636208F356DCFC.title: "&dUnobtainium Tools"
 	quest.0E88AE7FCDCF7554.quest_desc: [
@@ -138,6 +142,16 @@
 	quest.1D32DA4DB3A33416.quest_desc: ["  Comer diferentes comidas resulta em um aumento da vida, contanto que tenham um valor nutritivo mínimo."]
 	quest.1D32DA4DB3A33416.quest_subtitle: "Dieta diversificada"
 	quest.1D9F8739CCDE9389.title: "&cHot Tourist Destinations"
+	quest.1DD8AAF1B85574DC.quest_desc: [
+		"  Coloque uma &5budding amethyst&r ao lado de uma &bShadowpulse&r Goo para converte-la."
+		""
+		"  O bloco convertido então deverá passar por um processo para começar a gerar &atime crystals&r."
+		""
+		"  Ele deve visitar as 3 dimensões (&2overworld&r, &cnether&r e &dend&r) para absorver energia dessas."
+		""
+		""
+		"  &lNÃO QUEBRE O BLOCO&r, porque ele &dnão irá dropar&r, mesmo com silk touch. Use as cardboxes do Mekanism para transporta-lo."
+	]
 	quest.1E8EC9DAE14AD222.title: "Leafcutter Bee"
 	quest.1EBA8B1F7D38CFE2.quest_desc: [
 		"  Cabos conectados em um &dcontroller&r transmitirão uma certa quantia de &bcanais&r &7(cabos simples - 8 e cabos densos - 32)&r. "
@@ -150,6 +164,7 @@
 	quest.21567A28A1057BEB.quest_subtitle: "Post-production update"
 	quest.21567A28A1057BEB.title: "&dCreate 6.0"
 	quest.223A8D2748F569F7.title: "Iron Pickaxe"
+	quest.22596B2C4D8A0414.title: "&dExosuit"
 	quest.22B37B4AA734A129.quest_desc: [
 		"  Para conseguir multiplicar os minérios pelos valores indicados nas quests a seguir é necessário o uso de &d&osilk touch&r. "
 		""
@@ -230,6 +245,8 @@
 	quest.389806620DD3AA1D.title: "&dQuantum Computer"
 	quest.38E79292E61136DA.title: "Level 2"
 	quest.3AA927303980B6DD.title: "&6Trens"
+	quest.3B1E08C408C042FC.quest_desc: ["  Apesar de não ser necessária, proporciona um craft &bmais eficiente&r para ligas."]
+	quest.3B1E08C408C042FC.quest_subtitle: "Alloyer"
 	quest.3B4DBB6F3DD745D1.title: "Mushroom Colonies"
 	quest.3B749C7A49B9F40E.title: "Level 1"
 	quest.3BB215E23FD53AA8.title: "Smart Cables"
@@ -243,9 +260,21 @@
 	quest.3E881F227F140080.title: "&cInfused Alloy"
 	quest.3EEFC30FD72A3E99.title: "&6Dragonslayer"
 	quest.3FFB021632DB10D9.title: "&a3x Ore Processing"
+	quest.43E4D689198864D3.quest_desc: [
+		"  Ferramentas e armaduras do mod podem receber&d upgrades&r. "
+		""
+		"  São instalados ao combinar a ferramenta e o upgrade em uma &6smithing table&r."
+		""
+		"  Novos tiers aceitam upgrades dos tiers inferiores, além de alguns novos."
+	]
 	quest.44975BD7C5DED533.title: "&b[Mek]"
 	quest.450F3E89BB0E3DEF.title: "A cidade no Fim"
 	quest.45C301B60835147D.quest_subtitle: "Baterias"
+	quest.464CFAB59B27F288.quest_desc: [
+		"  Ferramentas de Blazegold tem a propriedade única Lava Repair."
+		""
+		"  Essa habilidade permite reparar as ferramentas &6&ldeste material&r ao joga-las na lava."
+	]
 	quest.46820BE674A05651.title: "&8[Decay]"
 	quest.476124708A38D3EC.quest_desc: [
 		"  O upgrade de fábrica está disponível para a maioria das máquinas do Mekanism, mas não para todas."
@@ -308,6 +337,7 @@
 	quest.5258EAE9C6841B2C.title: "Neon Cuckoo Bee"
 	quest.5439DA9412B54545.quest_subtitle: "Energia Passiva"
 	quest.559C292891BADA9C.title: "&dUltimate Cables"
+	quest.55BC6ABBB9B9657E.title: "Machine Cores"
 	quest.564D4458EC10703F.title: "&dNetherite Tools"
 	quest.571CB33BCE644B82.title: "&cThe Nether"
 	quest.58F9121D70C1CBB2.quest_desc: ["  Clique com o &3empty blaze burner&r em um &6blaze&r ou em um &6blaze spawner&r para captura-lo."]
@@ -321,6 +351,15 @@
 	]
 	quest.595A4EFB61B30765.title: "Intro: &aExtended AE"
 	quest.59BE4B7990055AC4.quest_subtitle: "Transporte"
+	quest.5A058224FB70E847.quest_desc: [
+		"  &bJust Dire Things&r adiciona uma maneira única de craftar seus recursos."
+		""
+		"  Crie uma &dgoo&r e coloque-a no mundo. Em suas faces irão aparecer itens, os quais podem ser usados para &bativa-la&r &7(botão direito com o mesmo)&r."
+		""
+		"  Após ser ativada, a goo irá converter &6blocos de minérios&r colocados em contato com ela. "
+		""
+		"  Cada goo aceita novos blocos, mas todas podem craftar o mesmo que os tiers inferiores."
+	]
 	quest.5AD8D237790FFAD8.title: "Tritium"
 	quest.5DDFB99C56C6C2D7.quest_subtitle: "Baterias modulares"
 	quest.5DDFB99C56C6C2D7.title: "&dInduction Matrix"
@@ -469,9 +508,9 @@
 		"    - Calor"
 		""
 		""
-		"  Os cabos de &aenergia&r, &blíquidos&r e &dgases&r possuem, além da taxa de transferência, um armazenamento interno. "
+		"  Os cabos de &aenergia&r, &blíquidos&r e &dgases&r possuem, além da taxa de transferência, um armazenamento interno. Por isso, é recomendado fazer cabeamentos maiores quando transportando um desses itens."
 		""
-		"  Por isso, é recomendado fazer cabeamentos maiores quando transportando um desses itens."
+		"  Use o &bconfigurator&r &7(shift + rmb)&r para alterar o cabo entre extrair ou inserir."
 	]
 	quest.71D2C88B03ACD57E.quest_subtitle: "Transportando recursos"
 	quest.71D2C88B03ACD57E.title: "Cabos"
@@ -575,6 +614,7 @@
 	task.395F2F01CFE89EDC.title: "Ore Hammers"
 	task.39EB0FFAED824722.title: "The Other"
 	task.3C4A848B7DFC31F8.title: "Dungeon"
+	task.3D13666CB902020A.title: "Addons"
 	task.43695CC0930B1609.title: "Backpacks"
 	task.49FA8EBD840E00DC.title: "Any #createaddition:spools"
 	task.4E9971DE39D36EBB.title: "Equipar título"
