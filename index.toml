@@ -117,16 +117,24 @@ file = "config/ftbquests/quests/chapters/itens_recomendados.snbt"
 hash = "da6aa2b69f31e3fe6a7f35b14d8a31c8f814dea11a2af332e7d55f2402348eb8"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
+hash = "e2ca13a47abb6437ac99b4d9f9e957f25c6b3a0768dbd05729b74bdcdccc3108"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/mekanism_generators.snbt"
 hash = "032b9b9fafaceefcc5a17bd942a6a129a1adb7564b88510537cd6a2bd18025a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekansim.snbt"
-hash = "16b486aee49bedf9e189f4ee6de1d9a7c9953cab76d34588a11725e7af06c33c"
+hash = "0338d1c5f3c88c3448cc982e9e4f44400c92820abf30073eac2561a87954d7a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
 hash = "788e9e7f4bd2bab79d7d4187d9d7d825f7a7274dee2ebc73a630e078c9c16830"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oritech.snbt"
+hash = "17fed83561904dd06130e9e1bfc75ef3b75b9096de58ddd543c50588713d7097"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/overworld.snbt"
@@ -158,7 +166,7 @@ hash = "a5d7b78e1546a47d2802b47a43cd1ed75058a29988748ac7d20f5be66875cd23"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b49e925794ca87963136a432c279f185f858a7a2baf39e2f2907d3904d37d20d"
+hash = "9e7cee09f0f58a8aaefaf41250fea002718a4e8e5d651b7836c3e5fe784d226e"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -373,6 +381,10 @@ file = "kubejs/server_scripts/csmp/red.js"
 hash = "9c9d3e1544ef76eaaafe01cbf3a19ebf1299a914506f43388f37b3a362d42439"
 
 [[files]]
+file = "kubejs/server_scripts/dire/remove.js"
+hash = "e8bb5481f1fd9a97877a8003212546dd0ab11b50ed146f3a3144554ae7c2cdae"
+
+[[files]]
 file = "kubejs/server_scripts/mekanism/atomic.js"
 hash = "96430cb64364bc82279ce8cd95b352ab75659a509b5b03df0ee1dd412a98faa9"
 
@@ -391,6 +403,10 @@ hash = "8a5517c8436e28efdfabbff5b6b5bc64c292eba4fa3b8a416b4e2d44b83db633"
 [[files]]
 file = "kubejs/server_scripts/mekanism/removed.js"
 hash = "b43d3a15ba293821fb85b800984fd16fab6cc3969e14f9c1ed2bc61955dc53a9"
+
+[[files]]
+file = "kubejs/server_scripts/oritech/remove.js"
+hash = "41e5e18787717dcf0fdc9997edfc7e1f7a8fa34a8af0b91177e58a8a27304498"
 
 [[files]]
 file = "kubejs/server_scripts/powah/powah.js"
