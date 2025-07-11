@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "complementary-reimagined.pw.toml"
-hash = "77648e26296071f790bea303b2b2c171b64681385e5b3bacada7d9f75dd54297"
-metafile = true
-
-[[files]]
 file = "config/Mekanism/client.toml"
 hash = "cf1e0cd384ab2773e69b73d781ee691fb81d1d2b08668f23b2e17a48ad1c7cfe"
 
@@ -1201,3 +1196,8 @@ hash = "39e1babafa2da578cac19f98f9d7025f7b52e6e61ae2b9dd2d30886409ab4dc8"
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.1c.zip.txt"
 hash = "7205d891963a46b954a9d499021041aa7dcb89ef4353f5e3e09b37aec4841b9d"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "77648e26296071f790bea303b2b2c171b64681385e5b3bacada7d9f75dd54297"
+metafile = true
