@@ -118,7 +118,7 @@ hash = "da6aa2b69f31e3fe6a7f35b14d8a31c8f814dea11a2af332e7d55f2402348eb8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
-hash = "e2ca13a47abb6437ac99b4d9f9e957f25c6b3a0768dbd05729b74bdcdccc3108"
+hash = "0fb025c6810829e54883544469f2d4c3d3cf1ec1f85e1da89b44e92791d83b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism_generators.snbt"
@@ -134,7 +134,7 @@ hash = "788e9e7f4bd2bab79d7d4187d9d7d825f7a7274dee2ebc73a630e078c9c16830"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "17fed83561904dd06130e9e1bfc75ef3b75b9096de58ddd543c50588713d7097"
+hash = "c8b6f38369501b7c249e117969a6c842df2d5f77182307965ae843c8d0b24d1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/overworld.snbt"
@@ -382,7 +382,7 @@ hash = "9c9d3e1544ef76eaaafe01cbf3a19ebf1299a914506f43388f37b3a362d42439"
 
 [[files]]
 file = "kubejs/server_scripts/dire/remove.js"
-hash = "e8bb5481f1fd9a97877a8003212546dd0ab11b50ed146f3a3144554ae7c2cdae"
+hash = "a97372b9a1ec68c956288c01139a0396c81b73375d141176dc8c547becdbd8ec"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/atomic.js"
@@ -406,7 +406,7 @@ hash = "b43d3a15ba293821fb85b800984fd16fab6cc3969e14f9c1ed2bc61955dc53a9"
 
 [[files]]
 file = "kubejs/server_scripts/oritech/remove.js"
-hash = "41e5e18787717dcf0fdc9997edfc7e1f7a8fa34a8af0b91177e58a8a27304498"
+hash = "6cbc6c42c546bb8dbc33fcc1117e8ff2d7a0f326403761a8907ebea822d96325"
 
 [[files]]
 file = "kubejs/server_scripts/powah/powah.js"
