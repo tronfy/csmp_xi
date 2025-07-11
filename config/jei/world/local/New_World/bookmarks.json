@@ -1,0 +1,10 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"ae2:wrapped_generic_stack","components":{"ae2:wrapped_stack":{"type":"FE","#t":"appflux:flux","#":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:capicoin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:strawberry"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:heart_of_the_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:void_relic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:red_fuel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:gray_fuel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

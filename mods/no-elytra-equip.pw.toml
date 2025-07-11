@@ -1,0 +1,13 @@
+name = "Elytra No More"
+filename = "noelytra-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3f2cc4bebb2fdeea168064cdd8fda8f455fa4fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6368443
+project-id = 1226639

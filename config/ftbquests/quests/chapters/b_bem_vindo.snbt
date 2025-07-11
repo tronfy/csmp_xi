@@ -1,0 +1,215 @@
+{
+	autofocus_id: "66D59896E0440C8F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "b_bem_vindo"
+	group: "4A0794A238ABD6BA"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "74771FEF9E315687"
+	images: [{
+		height: 2.25d
+		image: "kubejs:textures/questimgs/csmp.png"
+		rotation: 0.0d
+		width: 4.5d
+		x: 0.0d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:capicoin"
+			}
+			id: "66D59896E0440C8F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "15D4415CE4E3BF37"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:efficiency": 1
+								}
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "59E58187A6DE8A93"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:efficiency": 1
+								}
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:stone_axe"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					count: 8
+					id: "3A2EA72C5798DBDC"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "6903C45F4D67B38B"
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "4EE2E07312726104"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66D59896E0440C8F"]
+			icon: {
+				id: "ftbquests:barrier"
+			}
+			id: "3CB2189CACC7F741"
+			shape: "circle"
+			tasks: [{
+				id: "6148D15AD4A6CB92"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66D59896E0440C8F"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "6BCEE9796E923020"
+			tasks: [{
+				id: "606E7E3B39B89183"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66D59896E0440C8F"]
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "1D32DA4DB3A33416"
+			rewards: [{
+				id: "0B6E49A93E3268EF"
+				item: {
+					count: 1
+					id: "solcarrot:food_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01FAD782F7A4AFBD"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66D59896E0440C8F"]
+			icon: {
+				components: {
+					"relics:charge": 2
+					"relics:data": {
+						abilities: {
+							abilities: {
+								glider: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										cooldown: {
+											initialValue: 1.80111d
+										}
+										count: {
+											initialValue: 2.12205d
+										}
+									}
+								}
+								shield: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										knockback: {
+											initialValue: 2.53844d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "artifacts:umbrella"
+			}
+			id: "22FD5EC833102076"
+			tasks: [{
+				id: "69AB90891B87DB9F"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+}

@@ -1,0 +1,242 @@
+{
+	autofocus_id: "716CB69C734ACDCF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dcriativo"
+	group: "67423F0580D80BE3"
+	icon: {
+		id: "kubejs:capicoin"
+	}
+	id: "258538EB1CE1ADC7"
+	images: [
+		{
+			height: 1.85d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.85d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.85d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.85d
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"443D755573B6627F"
+				"274E56274E1D8127"
+				"7973A56C312B5777"
+				"3C59C47B8F81CB55"
+				"4433A9D85F077696"
+				"20680693EF4D6B5C"
+				"6C166B750E9E7A46"
+				"11F836E692A0A1E0"
+			]
+			hide_dependent_lines: true
+			id: "716CB69C734ACDCF"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "4BA99A6AB6F3995B"
+				item: { count: 1, id: "kubejs:capicoin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "3A9B8FC919A6D772"
+			tasks: [{
+				id: "6ADC4933775E083F"
+				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "6E8ACC686A4E31EB"
+			tasks: [{
+				id: "630D703B70731F2C"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "35DBAD7E54EB77E8"
+			tasks: [{
+				id: "1E887D467E344389"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "1756F00A72CEDDD6"
+			tasks: [{
+				id: "0784180C99ECB4AA"
+				item: { count: 1, id: "create:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "376CC9CE6EC3BA6D"
+			tasks: [{
+				id: "60C12F8F32443662"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "422B5B68F7444E30"
+			tasks: [{
+				id: "16EB5AA06F6DC74E"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "13209BCCB929621D"
+			tasks: [{
+				id: "315AC42C7608F53E"
+				item: { count: 1, id: "advanced_ae:flight_card" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["716CB69C734ACDCF"]
+			id: "215219F00B831BD6"
+			tasks: [{
+				id: "3A96DD0530E5A1A7"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "7973A56C312B5777"
+			shape: "rsquare"
+			tasks: [{
+				id: "23A580466BFF3841"
+				item: { count: 1, id: "kubejs:void_relic" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "3C59C47B8F81CB55"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "6557B2EC6E7DDE1B"
+				item: { count: 1, id: "extendedae:fishbig" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "20680693EF4D6B5C"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "4336AF14068F454B"
+				item: { count: 1, id: "extendedae:mddyue" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "443D755573B6627F"
+			shape: "rsquare"
+			tasks: [{
+				id: "19DF95A43505905F"
+				item: { count: 1, id: "kubejs:heart_of_the_nether" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "6C166B750E9E7A46"
+			shape: "rsquare"
+			tasks: [{
+				id: "07FB3DDFBD0474D1"
+				item: { count: 1, id: "kubejs:strawberry" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 0.9d
+			id: "4433A9D85F077696"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "1E207923F6AE281F"
+				item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			icon_scale: 0.9d
+			id: "11F836E692A0A1E0"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "4DFAFBB6A5243E5C"
+				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 0.9d
+			id: "274E56274E1D8127"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7A9DBDDB8B403486"
+				item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

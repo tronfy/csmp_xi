@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "itens_recomendados"
+	group: "4A0794A238ABD6BA"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "604293FC096B218F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "1585424531707494"
+			tasks: [{
+				id: "2287FC0C136F7FEC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/paxel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "11287E65C93A5A6E"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "3A0A5580B011FD91"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "2A1E9AA8345F2311"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "12CD6E501DA91701"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "20BF588E308FF8C5"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "1F1094505EB5F21D"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "51FD27685557F5D2"
+			tasks: [{
+				id: "32BCCF03DC08FDAE"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "48D37B0F5A449790"
+			shape: "square"
+			tasks: [{
+				id: "4DC91E36568B7152"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "4502948B867D6894"
+			tasks: [{
+				icon: {
+					id: "sophisticatedbackpacks:backpack"
+				}
+				id: "43695CC0930B1609"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "0ABE3413368C0037"
+			tasks: [{
+				id: "126B7E9AD2D0EE1C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:copper_furnace)item(ironfurnaces:iron_furnace)item(ironfurnaces:silver_furnace)item(ironfurnaces:gold_furnace)item(ironfurnaces:diamond_furnace)item(ironfurnaces:emerald_furnace)item(ironfurnaces:crystal_furnace)item(ironfurnaces:obsidian_furnace)item(ironfurnaces:netherite_furnace))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "49F38FD900945C10"
+			shape: "circle"
+			tasks: [{
+				id: "7417362767165184"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "737F212581046471"
+			shape: "diamond"
+			tasks: [{
+				id: "48E27CBF6D678512"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "4B0ED8AC7331E054"
+			tasks: [{
+				id: "77439001E4A14ED4"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "30CBF994C220F2BA"
+			shape: "square"
+			size: 0.85d
+			tasks: [{
+				id: "5AAD2A92E8B71F68"
+				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+				type: "item"
+			}]
+			x: 6.45d
+			y: 0.85d
+		}
+	]
+}

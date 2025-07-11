@@ -1,0 +1,284 @@
+{
+	autofocus_id: "2929D6595F241B39"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "18F67605EDDF8FE9"
+	icon: {
+		id: "minecraft:end_stone"
+	}
+	id: "525546D76EE2F3AA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "2929D6595F241B39"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "4F56EB723CA07C96"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2929D6595F241B39"]
+			id: "2CA7E1697AB31857"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "13E80C808DE61F37"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "71F9A45FC8F154B6"
+			tasks: [{
+				id: "54B5EFECD9422A5F"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "3D932967D75979F8"
+			tasks: [{
+				id: "19CA4E048FD72E3E"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "617E4A32E01E7155"
+			tasks: [{
+				id: "209DC3601C363ABA"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "0363C661A997D9AE"
+			tasks: [{
+				id: "1A5BAFB951CD3AD0"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "23AE7DA809234CD1"
+			tasks: [{
+				id: "730A518E3A0A3903"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "18A075670BDBA565"
+			tasks: [{
+				id: "181A9CCD65CF222E"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "4840F4E3586A4FBB"
+			tasks: [{
+				id: "72D7A8CF1E4605AA"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "48A47D6DFAF29858"
+			tasks: [{
+				id: "12D24E66641417E1"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "3321D98F3898A9D4"
+			tasks: [{
+				id: "12DA00D7320CC5AE"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "1F924A97342819DF"
+			tasks: [{
+				id: "0DE1954F04D60C56"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "7C0BCAA935DB7B6C"
+			tasks: [{
+				id: "3950FB491E386321"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "00A2867D6E831C48"
+			tasks: [{
+				id: "0513CEA8495F3810"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "015B9191B470FA5C"
+			tasks: [{
+				id: "715CC2C01BDBC0C7"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "6515860F55AFA430"
+			tasks: [{
+				id: "7948CBFA984FD9F8"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "001DD4086CEC2164"
+			tasks: [{
+				id: "5EF5C72FFF3FF191"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "23B3F6D28B1A839E"
+			tasks: [{
+				id: "57114541B986185B"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24E2AAFCEAFD7E94"]
+			id: "450F3E89BB0E3DEF"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "5E2D555F78CC1861"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["450F3E89BB0E3DEF"]
+			id: "4F03F8C18B3816FE"
+			tasks: [{
+				id: "21FE6FFE3CB0638F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:shulker_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CA7E1697AB31857"]
+			id: "7B325394B0AEE757"
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "64F7347440E7E8D1"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B325394B0AEE757"]
+			id: "3EEFC30FD72A3E99"
+			rewards: [{
+				id: "6236BFD6D7204C97"
+				item: {
+					count: 1
+					id: "allthemodium:vibranium_ore"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.35d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_egg"
+				}
+				id: "76C59F472BF2AC28"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2929D6595F241B39"]
+			id: "24E2AAFCEAFD7E94"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "269DA73A7B1BE052"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

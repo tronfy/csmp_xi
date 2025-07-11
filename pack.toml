@@ -1,0 +1,13 @@
+name = "CSMP XI"
+author = "CapivaraManca"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5f9e97ebd7efef192588d649f91056d89835dc2a1c8708ceaf606cf6c9bb3611"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.169"

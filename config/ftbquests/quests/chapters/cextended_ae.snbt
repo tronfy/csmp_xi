@@ -1,0 +1,242 @@
+{
+	autofocus_id: "05501B957ACDF6F3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cextended_ae"
+	group: "590DE1031F4E6663"
+	icon: {
+		id: "extendedae:ex_pattern_provider"
+	}
+	id: "52A9007C0EB92590"
+	images: [
+		{
+			height: 1.0d
+			image: "extendedae:block/ex_io_port_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.15d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.3d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.15d
+			y: -0.35d
+		}
+		{
+			height: 1.0d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.3d
+			y: -0.35d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EE6984A1F9BDD45"]
+			icon: {
+				id: "extendedae:assembler_matrix_frame"
+			}
+			id: "1B6D535E2473A0D9"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "671F148AFD29C46D"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					id: "2565C2D76C19BE09"
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					type: "item"
+				}
+				{
+					id: "1339E2E10908BC41"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					type: "item"
+				}
+				{
+					id: "5CAA92B922497440"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					type: "item"
+				}
+				{
+					id: "35C9CCC615F7D6E4"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "extendedae:entro_seed"
+			}
+			id: "595A4EFB61B30765"
+			tasks: [
+				{
+					id: "76EFAFAD895ED0AC"
+					item: { count: 1, id: "extendedae:entro_seed" }
+					type: "item"
+				}
+				{
+					id: "7203D335CCCEE579"
+					item: { count: 1, id: "ae2:fluix_block" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05501B957ACDF6F3"]
+			id: "0EE6984A1F9BDD45"
+			tasks: [{
+				id: "703383ED979DC114"
+				item: { count: 1, id: "extendedae:entro_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73B8B1BA540EEDD8"]
+			id: "0F3BA8786F6983BA"
+			tasks: [{
+				id: "55ADF009DDCC582B"
+				item: { count: 1, id: "extendedae:ex_pattern_provider" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73B8B1BA540EEDD8"]
+			id: "05F3D040ABBFA831"
+			tasks: [{
+				id: "7B098D5CA9B2C43C"
+				item: { count: 1, id: "extendedae:ex_drive" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EE6984A1F9BDD45"]
+			icon_scale: 0.9d
+			id: "27935DF1ABB5E04A"
+			shape: "gear"
+			size: 1.15d
+			tasks: [
+				{
+					count: 2L
+					id: "1C274F93A1586685"
+					item: { count: 1, id: "extendedae:wireless_connect" }
+					type: "item"
+				}
+				{
+					id: "1A2AF792A449FB96"
+					item: { count: 1, id: "extendedae:wireless_tool" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73B8B1BA540EEDD8"]
+			id: "298017A83A8E49E4"
+			tasks: [{
+				id: "6D85E0466211CFFA"
+				item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FE486B527B9BE44"]
+			id: "73B8B1BA540EEDD8"
+			shape: "rsquare"
+			tasks: [{
+				id: "1D9447FB3522CF45"
+				item: { count: 1, id: "extendedae:concurrent_processor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73B8B1BA540EEDD8"]
+			id: "54E008292E63426B"
+			tasks: [{
+				id: "09AA5FFC4DB9E571"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["595A4EFB61B30765"]
+			id: "05501B957ACDF6F3"
+			tasks: [{
+				count: 4L
+				id: "30CDC2F1FB3252AF"
+				item: { count: 1, id: "extendedae:entro_crystal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["322F2B16740204DE"]
+			icon: {
+				id: "extendedae:concurrent_processor_press"
+			}
+			id: "0FE486B527B9BE44"
+			shape: "rsquare"
+			tasks: [{
+				id: "689EF3B0019F0806"
+				item: { count: 1, id: "extendedae:concurrent_processor_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05501B957ACDF6F3"]
+			id: "322F2B16740204DE"
+			tasks: [{
+				id: "79E33D287699F84F"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+}
