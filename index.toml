@@ -73,6 +73,90 @@ file = "config/create-server.toml"
 hash = "682a32e512faa28b331b6a773b5518a5ead811614e3a02232712afd806ff0d40"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "80ed128a0e856c1d2cf85164d65366dc0c3d14813009401f030ed29143be48e5"
+
+[[files]]
+file = "config/fancymenu/assets/capybara.gif"
+hash = "f4b64006a8a5461a2132ad3b18072b388fd49d608bd025d1b336653f3ee52e87"
+
+[[files]]
+file = "config/fancymenu/assets/title.png"
+hash = "c0975a52c6802f8a8e72b0303ae7debb7c82c4463cf016a9535d6d729ef12be6"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "8b8d63ecc8fdd9e5a755644c2532acad534b6f4a41144b2ea977857d625f6a72"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "97acff116a25df6da12609a321386353dfadff5f2fa1e8f72d31ba779b9d92fc"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "6af149cbca35062d07e9c80f4a23a2afd6349adbdc3c607cea8e98915fb6b9bc"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "fc324a8cb6acc038bdf5425027722e3c18c59929adcf3be427c0acac53906156"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "aa69ab69c4c7b743fae0d23f15bbda92b5b46432b67e2d8e047c29c6160b0fb3"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "5d198cfab40eaf8302375b566e8db1a386ff66afcf6cfbe1865789728146335a"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_0.png"
+hash = "459393d34d613cde99f521694096bc684fcf5384ec074f827dc42d41177f2954"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_1.png"
+hash = "163b62de082629cec8cf5d57720548ca95fc82efb4639f3cb7640aa9addb1298"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_2.png"
+hash = "61b1b0a800096e9489452f0f4f1c99bcce0016e10c8dfb73cbfc37f32665e6a8"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_3.png"
+hash = "2637371ede30da978a1d0de0c8a74e61034b674092d6a3662a93f52c576aa0d4"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_4.png"
+hash = "3fbbd1e4fd57889c33fdd3e34373cfb693a8bce8d75aef0bda23791ce0beed92"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_5.png"
+hash = "3f753f5b5ccfe5c57ae90e84eda4532e0d05a3d385018abde78c7a9be1c94ba4"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/properties.txt"
+hash = "0130b75b3e498f65e4e3844cf17ffe905a882bc6aa627035b657d07a66fae8fb"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "45541e5c5019585b9c4ff114aed530826129e8a7ac6866b5d5fe41dd278abae4"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "afbf7363fb350c342c718618b1b8ec15928c57ae809fc94ff57fbd908089f5ec"
 
@@ -687,6 +771,11 @@ hash = "896b115966fb33c13573505e26950cc364d60f58506c6ec67fde7949ef5a56a6"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "9e0bfb309603870b77dfd202f1456c6e96649d47bf3c4628d56be50fd82a5ccf"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "3ded0d68b09fe994803e3129cefd1db3b20e0cc9a70892af7c9e4f70523d5536"
 metafile = true
@@ -714,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/experiencelib.pw.toml"
 hash = "ea0136da3e600ffb5d0635109d295e3d7a46f7005722a4373e3b178d5ac7540e"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "67ebbe98e6da4560d78beea68d47c202e4d48f5e5d342b7cab3dbde94aece758"
 metafile = true
 
 [[files]]
@@ -872,6 +966,11 @@ hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "5bc824e369b9a085c7381f768356ce19c062d1b81e2302149684df62c60a16c8"
 metafile = true
@@ -924,6 +1023,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism.pw.toml"
 hash = "462c0bffff6af0f4ef1711f363e9b9a96e90a77fe6e8a087e6864a0ac2a3f1f8"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
 
 [[files]]
