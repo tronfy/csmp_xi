@@ -1,0 +1,20 @@
+# Set the default behavior to auto-detect text files and normalize line endings
+* text=auto
+
+# Explicitly ensure .toml and .json files use LF line endings
+*.toml text eol=lf
+*.json text eol=lf
+
+# Ensure other text-based files that might be in your modpack also use LF
+*.cfg text eol=lf
+*.txt text eol=lf
+*.mcignore text eol=lf
+*.md text eol=lf
+
+# Explicitly mark known binary files to prevent Git from touching them
+*.jar binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.ogg binary
+*.mcmeta binary
