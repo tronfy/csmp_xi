@@ -450,7 +450,7 @@ hash = "6fa8d308eb1c58e8aa2379e67388ebc23a97752ab1c2e2131fa28130c2c93745"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/gray.js"
-hash = "db30cb5f3cdf42be07c21017def72ddd17e415b0c16419a059b46ad7240602fa"
+hash = "6351c755618cb64baba5542b12ee8f8b489052b573780497fa0355ac24addc27"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/nether.js"
