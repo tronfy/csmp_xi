@@ -442,7 +442,7 @@ hash = "2dc8cea0c4e06b8ebc39a106ab2bf44cb7e99f75956736d6eec069cfdfced39a"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/criativo.js"
-hash = "55e21bf853607e28516edbfaf914b97dad968e9be07ec78efeb9dc48cd1b9ade"
+hash = "3c4d6110f18ff4a7005ffa9134ba146e1e269b672dd2322beaea7e607f6ddc27"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/end.js"
@@ -450,7 +450,7 @@ hash = "6fa8d308eb1c58e8aa2379e67388ebc23a97752ab1c2e2131fa28130c2c93745"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/gray.js"
-hash = "6351c755618cb64baba5542b12ee8f8b489052b573780497fa0355ac24addc27"
+hash = "db30cb5f3cdf42be07c21017def72ddd17e415b0c16419a059b46ad7240602fa"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/nether.js"
