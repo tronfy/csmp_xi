@@ -1051,6 +1051,11 @@ hash = "b5be9033308bb88924ddbc0eb95011a6ad1674099f0db976ab5e05a28afc4971"
 metafile = true
 
 [[files]]
+file = "mods/nedologin.pw.toml"
+hash = "af7243e096a68e5cb5550727d5ba91c8cb193cbe23cd8079ad4af8f38331c152"
+metafile = true
+
+[[files]]
 file = "mods/no-elytra-equip.pw.toml"
 hash = "e8fad6a7f301b59777fab5b6059f2ac26111dd9180fda91be2b354ff70b5f331"
 metafile = true
