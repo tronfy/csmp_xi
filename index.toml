@@ -442,7 +442,7 @@ hash = "2dc8cea0c4e06b8ebc39a106ab2bf44cb7e99f75956736d6eec069cfdfced39a"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/criativo.js"
-hash = "8fc6b53758923d90e3b741cd2260425ed71b307e946c836001b2e2656b79dcc1"
+hash = "75db2f3d61ef6b19a732d9a83641cc57e982430e140120d490aa1c3c8c19768f"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/end.js"
