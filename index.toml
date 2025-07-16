@@ -442,7 +442,7 @@ hash = "2dc8cea0c4e06b8ebc39a106ab2bf44cb7e99f75956736d6eec069cfdfced39a"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/criativo.js"
-hash = "75db2f3d61ef6b19a732d9a83641cc57e982430e140120d490aa1c3c8c19768f"
+hash = "8fc6b53758923d90e3b741cd2260425ed71b307e946c836001b2e2656b79dcc1"
 
 [[files]]
 file = "kubejs/server_scripts/csmp/end.js"
@@ -486,7 +486,7 @@ hash = "8a5517c8436e28efdfabbff5b6b5bc64c292eba4fa3b8a416b4e2d44b83db633"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/removed.js"
-hash = "b43d3a15ba293821fb85b800984fd16fab6cc3969e14f9c1ed2bc61955dc53a9"
+hash = "7293a86793acebca52ff5a4017d59092c7d0ea2c58ac655091a9d5e9568e060b"
 
 [[files]]
 file = "kubejs/server_scripts/oritech/remove.js"
@@ -901,6 +901,11 @@ hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
+file = "mods/hostile-neural-networks.pw.toml"
+hash = "90f96f9e48eea134f5a399b859d4977d6166a1711c917224375ce832b0b9cf53"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "f0b46153b8357899eb45c1c1991da11d5ae3dab28dbc92e6b8f49dbe2967c464"
 metafile = true
@@ -913,6 +918,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
 hash = "f396d2451d69bd7ccc614896063ae9fec63f42f916486c571c6fc00f6383c673"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "9677f56604abd544e1010f5d274b605547dd7dbc9f900f1b237203e060f204ab"
 metafile = true
 
 [[files]]
@@ -986,6 +996,11 @@ hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
 metafile = true
 
 [[files]]
+file = "mods/laserio.pw.toml"
+hash = "0d7ce37fd00f170025118f0e3fbeef7f4e7147c332b1a5a4e924950eb5e36bc0"
+metafile = true
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "2a9d257e1db5afac622e62073ca5cf56796f7aed5e52ad59e7f9585e1ab0f1c9"
 metafile = true
@@ -998,6 +1013,11 @@ metafile = true
 [[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "70db2eec093dadc990fe5862f9c3fe59a0d0de53542872eaccb5dc7f54be5fb1"
+metafile = true
+
+[[files]]
+file = "mods/mcjtylib.pw.toml"
+hash = "9cc6acc80e69e90d51a41b79359c859df534b739f0489ea208e568ddf0d884d2"
 metafile = true
 
 [[files]]
@@ -1166,6 +1186,11 @@ hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
+file = "mods/rftools-base.pw.toml"
+hash = "27a45db50285026c82670c141f1eeb240c9169f5695734fa80a2984aab92224d"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "9dfeb4b87e376aacf809236ade964c2e37943aaff4d7a5774442f7cca52b76de"
 metafile = true
@@ -1242,7 +1267,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "b83b733a3cc6d0e6b08d4bcb27954914ef0f820d71c7ac94d33171cfb2f717ae"
+hash = "d0ed2ad1e912f3237da379d2d56e786d301858411959bc5f74abe428c8e38eb3"
 metafile = true
 
 [[files]]
@@ -1253,6 +1278,11 @@ metafile = true
 [[files]]
 file = "mods/ui.pw.toml"
 hash = "fb295f25baa29ff0da580474c3d60660170a02e96a1688d8a10ede24981529d1"
+metafile = true
+
+[[files]]
+file = "mods/xnet.pw.toml"
+hash = "0f1af0a7092727b6b975bbb9ac7970e8d9baf136bcf68e7e6f5a427d04381370"
 metafile = true
 
 [[files]]

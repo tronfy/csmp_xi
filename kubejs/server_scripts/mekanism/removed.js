@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // teleporters
-    event.remove({output:'mekanism:teleporter_frame'})
-    event.remove({output:'mekanism:teleporter'})
+    // event.remove({output:'mekanism:teleporter_frame'})
+    // event.remove({output:'mekanism:teleporter'})
     event.remove({output:'mekanism:portable_teleporter'})
     //elytra
     event.remove({output:'mekanism:hdpe_elytra'})
